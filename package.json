@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@g-loot/react-tournament-brackets": "^1.0.31-rc",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "flatpickr": "^4.6.13",
+    "http-proxy-middleware": "^3.0.0",
     "react": "^18.3.1",
+    "react-bracket": "^0.0.4",
     "react-dom": "^18.3.1",
+    "react-flatpickr": "^3.10.13",
+    "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
+    "react-svg-pan-zoom": "^3.12.1",
+    "vite": "^5.3.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
