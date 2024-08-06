@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 //import { Bracket } from 'react-tournament-bracket';
-import { SingleEliminationBracket, SVGViewer } from '@g-loot/react-tournament-brackets';
+// import { SingleEliminationBracket, SVGViewer } from '@g-loot/react-tournament-brackets';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import './BracketPage.css';
@@ -52,15 +52,15 @@ const BracketPage = () => {
 
     return (
       <div className="bracket-container">
-        <SingleEliminationBracket
-          matches={matches}
-          matchComponent={CustomMatchComponent}
-          svgWrapper={({ children, ...props }) => (
-            <SVGViewer width={1000} height={800} {...props}>
-              {children}
-            </SVGViewer>
-          )}
-        />
+        {/*<SingleEliminationBracket*/}
+        {/*  matches={matches}*/}
+        {/*  matchComponent={CustomMatchComponent}*/}
+        {/*  svgWrapper={({ children, ...props }) => (*/}
+        {/*    <SVGViewer width={1000} height={800} {...props}>*/}
+        {/*      {children}*/}
+        {/*    </SVGViewer>*/}
+        {/*  )}*/}
+        {/*/>*/}
       </div>
     );
   };
