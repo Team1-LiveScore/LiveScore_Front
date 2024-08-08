@@ -10,6 +10,8 @@ import Settings from "./pages/Settings";
 import MyPage from "./pages/MyPage";
 import TeamManagementPage from "./pages/TeamManagementPage";
 import MatchManagementPage from "./pages/MatchManagementPage";
+import Admin from './pages/Admin';
+import LiveStreaming from './pages/LiveStreaming';
 
 const routes = [
   {
@@ -60,6 +62,14 @@ const routes = [
   {
     path: "/create-match",
     element: <MatchManagementPage />,
+  },
+  {
+    path: "/admin",
+    element: <Admin />,
+  },
+  {
+    path: "/admin/livestreaming",
+    element: <LiveStreaming />,
   },
 ];
 export default routes;
